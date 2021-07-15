@@ -16,10 +16,15 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
   }
 
+  body {
+    background: rgb(234, 237, 237);
+  }
+
   :root {
     --clr-white: #FFFFFF;
     --clr-dark-gray: #131921;
     --clr-dark-orange: #cd9042;
+    --clr-orange: #f0c14b;
   }
 `;
 
