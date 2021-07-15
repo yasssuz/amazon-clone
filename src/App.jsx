@@ -1,10 +1,11 @@
-import { Header } from "./components/Header";
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header /> {/*COMPONENT*/}
-      <h1>hello</h1>
+    <div className='App'>
+      <Header /> {/* COMPONENT */}
+      <Home /> {/* COMPONENT */}
     </div>
   );
 }
