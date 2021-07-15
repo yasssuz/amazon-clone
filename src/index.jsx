@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { createGlobalStyle } from 'styled-components';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { createGlobalStyle } from "styled-components";
+import App from "./App";
 
 const GlobalStyles = createGlobalStyle`
   *,
@@ -21,12 +21,12 @@ const GlobalStyles = createGlobalStyle`
     --clr-dark-gray: #131921;
     --clr-dark-orange: #cd9042;
   }
-`
+`;
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyles />
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
